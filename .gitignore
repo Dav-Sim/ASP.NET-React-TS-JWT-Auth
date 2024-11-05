@@ -396,3 +396,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Other files
+appsettings.Development.Secrets.json
+appsettings.Production.Secrets.json
+tsconfig.app.tsbuildinfo
+tsconfig.node.tsbuildinfo

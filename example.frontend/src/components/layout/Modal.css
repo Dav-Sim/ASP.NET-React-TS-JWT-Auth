@@ -1,0 +1,7 @@
+.modal-enormous {
+    --bs-modal-width: 95%;
+}
+
+.modal-enormous>.modal-dialog {
+    max-width: 1400px;
+}

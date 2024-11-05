@@ -1,0 +1,153 @@
+<mxfile host="65bd71144e">
+    <diagram id="63-bV7b9rFcPGnEb1nre" name="Page-1">
+        <mxGraphModel dx="1121" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#333333" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=none;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="600" as="sourcePoint"/>
+                        <mxPoint x="80" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="" style="endArrow=none;html=1;startArrow=none;fontSize=14;labelBackgroundColor=none;" parent="1" source="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="600" as="sourcePoint"/>
+                        <mxPoint x="520" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="50" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="endArrow=none;html=1;fontSize=14;labelBackgroundColor=none;" parent="1" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="600" as="sourcePoint"/>
+                        <mxPoint x="520" y="80" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="50" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=classic;html=1;fontSize=14;labelBackgroundColor=none;startSize=16;endSize=16;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="120" as="sourcePoint"/>
+                        <mxPoint x="520" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Login (Email / Password)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="9" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2182" y="7" relative="1" as="geometry">
+                        <mxPoint x="48" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=classic;html=1;fontSize=14;labelBackgroundColor=none;startSize=16;endSize=16;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="160" as="sourcePoint"/>
+                        <mxPoint x="80" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Access token (valid 10min) + refresh token (valid x days)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="10" vertex="1" connectable="0">
+                    <mxGeometry x="0.0955" y="-3" relative="1" as="geometry">
+                        <mxPoint x="31" y="-6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=classic;html=1;fontSize=14;labelBackgroundColor=none;startSize=16;endSize=16;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="240" as="sourcePoint"/>
+                        <mxPoint x="520" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Get resource (Valid Access token)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="14" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2182" y="7" relative="1" as="geometry">
+                        <mxPoint x="48" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=classic;html=1;fontSize=14;labelBackgroundColor=none;startSize=16;endSize=16;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="280" as="sourcePoint"/>
+                        <mxPoint x="80" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="Resource" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="17" vertex="1" connectable="0">
+                    <mxGeometry x="0.0955" y="-3" relative="1" as="geometry">
+                        <mxPoint x="31" y="-5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=classic;html=1;fontSize=14;labelBackgroundColor=none;startSize=16;endSize=16;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="371" as="sourcePoint"/>
+                        <mxPoint x="520" y="371" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="Get resource (expired Access token)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="19" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2182" y="7" relative="1" as="geometry">
+                        <mxPoint x="48" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=classic;html=1;fontSize=14;labelBackgroundColor=none;startSize=16;endSize=16;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="411" as="sourcePoint"/>
+                        <mxPoint x="80" y="411" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="401" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="21" vertex="1" connectable="0">
+                    <mxGeometry x="0.0955" y="-3" relative="1" as="geometry">
+                        <mxPoint x="31" y="-6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=classic;html=1;fontSize=14;labelBackgroundColor=none;startSize=16;endSize=16;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="466" as="sourcePoint"/>
+                        <mxPoint x="520" y="466" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Refresh token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="23" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2182" y="7" relative="1" as="geometry">
+                        <mxPoint x="48" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=classic;html=1;fontSize=14;labelBackgroundColor=none;startSize=16;endSize=16;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="506" as="sourcePoint"/>
+                        <mxPoint x="80" y="506" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Access token (valid 10min) + New refresh token (valid x days)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="25" vertex="1" connectable="0">
+                    <mxGeometry x="0.0955" y="-3" relative="1" as="geometry">
+                        <mxPoint x="31" y="-5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=classic;html=1;fontSize=14;labelBackgroundColor=none;startSize=16;endSize=16;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="80" y="550" as="sourcePoint"/>
+                        <mxPoint x="520" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="Get resource (Access token)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="27" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2182" y="7" relative="1" as="geometry">
+                        <mxPoint x="48" y="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=classic;html=1;fontSize=14;labelBackgroundColor=none;startSize=16;endSize=16;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="590" as="sourcePoint"/>
+                        <mxPoint x="80" y="590" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="Resource" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="29" vertex="1" connectable="0">
+                    <mxGeometry x="0.0955" y="-3" relative="1" as="geometry">
+                        <mxPoint x="31" y="-5" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Refresh token is valid only once" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="470" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="After less than 10 min" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="180" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="After more than 10 min" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="300" width="210" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

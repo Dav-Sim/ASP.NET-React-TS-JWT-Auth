@@ -1,0 +1,22 @@
+.spinner-container {
+    position: relative;
+    min-height: 2rem;
+}
+
+.spinner-overlay {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: -.5rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-overlay-gray {
+    background-color: #c1c1c3a1;
+}
